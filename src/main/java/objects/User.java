@@ -14,6 +14,7 @@ public class User {
         this.date = date;
     }
 
+
     public String name, family, cityName, date;
 
     public User(ResultSet resultSet) {

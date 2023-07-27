@@ -17,8 +17,6 @@ public class TestJDBC {
         for (User l : Students.getUserObjects("Tetiana")) {
             System.out.println(l.date);
         }
-
-
     }
 
 

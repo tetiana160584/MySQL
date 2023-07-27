@@ -14,7 +14,6 @@ public class TestJDBC_2 {
             System.out.println("" + userId + ": " + user.name);
         }
 
-
     @Test
     public void testGetUsersByCity() throws SQLException {
         String city = "Kharkiv";

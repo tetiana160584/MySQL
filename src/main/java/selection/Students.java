@@ -50,8 +50,6 @@ public class Students extends State {
 
 
 
-
-
     public static User getUserById(String id) {
         String query = "SELECT * FROM sys.`students` WHERE id=?";
         ResultSet resultSet = null;
@@ -74,7 +72,6 @@ public class Students extends State {
             return null; // если пользователь с указанным ID не найден, вернётся null
         }
     }
-
 
     public static List<User> getUsersByCity(String city) {
         String query = "SELECT * FROM sys.`students` WHERE city=?";
